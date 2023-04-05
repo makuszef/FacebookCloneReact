@@ -1,0 +1,29 @@
+.comments__hiddenbutton {
+  display: none;
+}
+.comments__sendcomment > form > input {
+  outline-width: 0;
+  margin-left: 20px;
+  width: 40%;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+.comments__sendcomment > form > .MuiSvgIcon-root {
+  color: royalblue !important;
+}
+.comments__sendcomment {
+  display: flex;
+  flex: 1;
+}
+
+.comments__form {
+  display: flex;
+  flex: 1;
+}
+.comments__input {
+  padding-left: 20px;
+  flex: 1;
+}

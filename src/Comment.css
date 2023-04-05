@@ -1,0 +1,33 @@
+.comment__userinfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.comment__userinfo > h6 {
+  font-weight: 600;
+  padding-left: 5px;
+}
+.comment {
+  position: relative;
+  display: flex;
+  background-color: #e8ebe0;
+  border-top: 1px solid #dde1d0;
+}
+.comment__right {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.comment__left {
+  padding: 5px;
+}
+.comment__delete {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.comment > .MuiButtonBase-root {
+  position: absolute;
+  right: 0px;
+  margin-top: 6px;
+}
